@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project is an MIT website showcasing departments, programs, news, and events. Built with HTML, CSS, JavaScript, and MySQL, it offers features like user authentication and search.
+This project is an MIT website showcasing departments, programs, news, and events. Built with HTML, CSS, JavaScript, and MySQL, it offers features like user authentication and a search option.
 
 ## Features
 
