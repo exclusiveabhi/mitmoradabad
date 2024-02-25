@@ -1,43 +1,4 @@
-/* ===========================
-Index Of css
 
-01. Variables CSS
-02. Normalize CSS
-03. Header CSS
-04. Hero CSS
-05. Features CSS
-06. Service CSS
-07. Courses CSS
-08. Events CSS
-09. Photo Gallery CSS
-10. About CSS
-11. Achievement CSS
-12. Call Action CSS
-13. Experience CSS
-14. Work Process CSS
-15. Enroll CSS
-16. Mission CSS
-17. Teachers CSS
-18. Testimonial CSS
-19. FAQ CSS
-20. Blog CSS
-21. Login CSS
-22. Coming Soon CSS
-23. Newsletter CSS
-24. Clients CSS
-25. Footer CSS
-26. Responsive CSS
-27. Contact CSS
-28. 404 Error CSS
-29. Mail Success CSS
-
-========================== */
-/*======================================
-    Variables
-========================================*/
-/*======================================
-    Normalize CSS
-========================================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 html {
   scroll-behavior: smooth;
@@ -1385,7 +1346,7 @@ ol {
 }
 
 .header.style3.navbar-area .header-social ul li a:hover {
-  color: #0EDC8D;
+  color: #000000;
 }
 
 /*===== NAVBAR =====*/
@@ -1417,11 +1378,11 @@ ol {
 }
 
 .header .navbar .navbar-nav .nav-item a.active {
-  color: #0EDC8D;
+  color: #ffffff;
 }
 
 .sticky .navbar .navbar-nav .nav-item a.active {
-  color: #0EDC8D;
+  color: #ffffff;
 }
 
 .header .navbar .navbar-nav .nav-item .sub-menu a.active {
@@ -1439,7 +1400,7 @@ ol {
 /* Topbar */
 .header .toolbar-area {
   padding: 12px 0;
-  background: #0EDC8D;
+  background: #ffffff;
 }
 
 .header .toolbar-area .toolbar-social {
@@ -1535,7 +1496,7 @@ ol {
 .navbar-area.sticky {
   position: fixed;
   z-index: 99;
-  background: #0EDC8D;
+  background: #ffffff;
   -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1691,7 +1652,7 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   z-index: 5;
-  border: 8px solid #0EDC8D;
+  border: 8px solid #ffffff;
   border-radius: 0;
   border-bottom-color: transparent !important;
   width: auto !important;
@@ -1886,9 +1847,10 @@ ol {
   }
   .header .search-form .form-control {
     width: 130px !important;
+    margin-left: 40px;
   }
   .header .search-form {
-    margin-left: 30px !important;
+    margin-left: 40px !important;
   }
 }
 
@@ -1928,9 +1890,12 @@ ol {
 .header .search-form {
   margin-left: 60px;
 }
-
+.form-control{
+  margin-left: 45px;
+}
 .header .search-form .form-control {
   display: block;
+  
   width: 175px;
   padding: .375rem .75rem;
   font-size: 1rem;
